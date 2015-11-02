@@ -1,0 +1,3 @@
+[submodule "SpringMVCProjects/SoftwareGuild"]
+	path = SpringMVCProjects/SoftwareGuild
+	url = https://github.com/cmc629/SoftwareGuild.git
