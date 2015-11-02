@@ -1,0 +1,67 @@
+#Body Shop Gym – User Stories#
+
+##Admin:##
+
+-- The admin will access admin functions through “site_admin” URL, not
+-- referenced anywhere on the main site.
+
+
+Admin logs in and will always have a navigation menu available: 
+Home – Edit Site – Blog – Logout.
+
+At Home, user will be presented with a greeting, their level of access, and an 
+option to log out.
+
+"Edit Site", access level permitting, user will be presented with a site map, 
+and links to edit pages for the respective site location, edit nav and footer, 
+approved products list, or an option to create a new page.  User will be able 
+to edit, save, and revert to archived versions of those pages.
+
+"Blog", users will be presented with the entries their access permits them to. 
+Each blog will have a link to edit content, and approve/moderate comments, plus 
+a link to add entry. 
+
+"Logout", user is presented with a confirmation query to continue, or cancel, 
+loggin out. 
+ 
+
+--------------------------------------------------------------------------------
+
+
+##Customer:## 
+
+The user will always have navigation menu available.
+
+The user will always have location, hours, and contact information available in 
+the footer, and menu containing “Body Shop Approved Fitness Products Info 
+Center” containing links to available blog entries mentioning/containing 
+affiliate links to the product.
+ 
+Navigation options include: 
+Home – Community – About – Instructors – Get Toned! – Location
+
+The user will be presented with “Home” upon domain GET.
+
+'Home', the user will see  a greeting from founder, the most recent 
+(or featured) blog post.
+
+'Community' the user can sign up for a commenter's account, and peruse the 
+available entries. A commenter will be able to comment on the posts. Commenters 
+will also have the ability to edit and delete their comments.
+
+User's own comments will only be visible to them until approval, so user might 
+edit or delete their own comment. (Maybe, upon post, a disclaimer goes up saying 
+that comments need to be approved, and their approval status could be indicated 
+within the comment. Admin can also reply to posts that aren't public).
+
+'About', Users will be presented with a narrative of the Gym's history and its 
+mission statement. 
+
+'Instructors,' Users will see a head shot of each instructor, and a link to 
+their personal bio(a new page, or modal).
+
+'Get Toned!', Users will be presented with a class schedule and a static menu 
+displaying current personal training options.
+
+'Location', Users will be presented with Map to Location, link to Google 
+directions,  Hours, and Contact information.

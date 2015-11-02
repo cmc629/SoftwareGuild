@@ -1,0 +1,139 @@
+#Body Shop Gym – User Stories#
+
+##Admin:##
+
+-- The admin will access admin functions through “site_admin” URL, not
+-- referenced anywhere on the main site.
+
+
+**Admin Home** 
+
+Admin will be greeted and presented with a menu to *Site
+Administration* and *Blog Administration*
+
+
+**Site Administration** 
+
+Admin will be presented with a site index, and a 
+"Create New Page" option. If user clicks on any of the pre-existing pages
+(minus blogs), he is taken to the tinyMCE window containing the content. 
+If admin clicks "Create New Page", he is prompted for "New Menu Item". Where he
+provides the name of the link. After providing name of link, admin is will be 
+prsented with a blank tinyMCE window for the content being added. Once admin 
+submits changes, admin is presented with confirmation modal. Upon confirmation,
+new page is added to index, and link to that page is generated in the menu.
+
+**Blog Administration**
+
+-- Layout similar to "Contact List" app. 
+
+Admin will be presented with table list of blog entries,
+sorted by date, and options to "Edit", "Delete", "Comments". Admin will also be
+able to add a new blog entry from the screen. User will have associated dropdown
+form menus connected to the new blog form. One to schedule post date, one to 
+schedule post expiration, and one to choose category. If no post date is chosen, 
+blog posts upon submission and confirmation. If no end date is chosen, blog 
+remains published indefinitely. 
+
+Category menu will contain all categories as options, and an option to create new
+category. If no category is chosen it is categorized as "uncategorized". If "New
+Category" is selected, admin is presented with modal to make category name, and
+the option to cancel and submit. Upon submission, admin is asked to confirm. If
+admin continues, category is made, and he is presented with his blog interface
+and the category menu will contain new category. Once blog is submitted, admin
+must confirm submission before it is saved, and the blog form is ajaxed blank.
+
+**Edit Blog Modal**
+
+If admin selects "Edit", admin is presented with  modal containing the same blog
+form on the page, but containing all the content and information associated with
+that entry to be edited. "Submit" and "Cancel" buttons will be present.
+
+**Delete Blog Confirmation Modal**
+If admin selects "Delete", admin will confirm decision. "Delete" or "Cancel".
+
+**Comments**
+If admin selects "Comments", admin will be presented with a list of comments for
+that entry, those awaiting approval will have a signifier to show that. There will
+also be a signifier to show which comments admin replied to. When admin clicks 
+on comment, he is presented with modal to view comment. In that view, admin can 
+"approve", "delete", "admin replies" if relevent, and "reply"  .
+
+**Comment Approval**
+
+Upon clicking "Approve", admin is asked to confirm. If admin confirms, 
+need-approval signifier is removed, and comment is made public. If cancelled,
+nothing.
+
+**Comment Deletion**
+
+Upon clicking "Delete", admin is asked to confirm. If admin confirms, comment is
+removed from database, and if it was previously approved, will be removed from
+blog entry comments section.
+
+**Admin Replies**
+
+Upon clicking admin replies, admin is shown a modal of the original comment, and
+his own replies underneath it. Each reply will have an "edit" option. If edit is clicked,
+a new modal shows up to allow comment editing, there will be the option to cancel
+or submit. Submit will ask to confirm. If confirmed, edits will be submitted. If
+not, back to the modal. From which, admin still has option to cancel to remove
+modal.
+
+**Comment Reply** 
+ 
+Upon clicking "Reply", admin is presented with a modal to enter reply. If
+comment being replied is awaiting approval, reply will only be visible to author
+of original comment and admin. If original comment doesn't need approval, 
+reply will be visible to all. 
+
+
+--------------------------------------------------------------------------------
+
+
+##Customer:## 
+
+-- The user will always have navigation menu available.
+ 
+-- Navigation options include: 
+-- Home – Trainers – Products – Blog – Classes – Sign In -- Register
+
+-- The user will be presented with “Home” upon domain GET.
+
+**Home** 
+
+The user will see Gym Info.
+
+**Blog** 
+
+The user will be presented with available entries and their viewable comments. 
+The user will have the ability, at the bottom of each entry, to submit a comment about 
+that entry. Hashtags can be included in comment to be related with it in the database. 
+User's own comments will only be visible to them until approval, so user might edit or 
+delete their own comment. (Maybe, upon post, a disclaimer goes up saying that comments 
+need to be approved, and their approval status could be indicated within the comment. 
+Admin can also reply to posts that aren't public).
+
+
+**Trainers** 
+
+Users will see a head shot of each instructor and a bio for each instructor. 
+
+**Classes** 
+
+Users will be presented with a class schedule and a static menu 
+displaying current personal training options.
+
+**Sign In** 
+
+User will be presented with a form to process their login name and password.
+The form will test contents for validity. If not, a validation error will display. If
+it is, they are logged in, and redirected home with commenter's priveleges. 
+
+**Register** 
+
+User will be presented with a form to sign up for a user login. Form will test
+contents for validity and display validation error for invalid information. If valid,
+user is presented with a confirmation page to continue with account creation, or to cancel.
+If going forward, account is created, and user is redirected to a thank you page. If not,
+user is returned to the form. 

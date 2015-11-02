@@ -1,0 +1,279 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 28, 2015, 10:07:41 AM
+    Author     : apprentice
+*/
+
+/*.text-block {
+    opacity: 0.8;
+}*/
+
+body {
+    margin-top: 80px;
+}
+
+#br{
+    background-size: 800px;
+    font-family: 'Special Elite', cursive;
+    color: red;
+    text-align: left;
+}
+
+#marginleft{
+
+    margin-left: 50px;
+    border: 2px solid whitesmoke;
+}
+
+#marginleft2{
+
+    margin-left: 145px;
+    border: 2px solid whitesmoke;
+}
+
+#margintop{
+
+    margin-top: 50px;
+}
+
+
+#back{
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 50px;
+}
+
+#backtwo{
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 50px;
+}
+
+
+#firstpar{
+    margin-top: 40px;
+    font-family: 'Special Elite', cursive;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#secondpar{
+    margin-top: 50px;
+    font-family: 'Special Elite', cursive;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#margin{
+
+    background: black;
+    margin-top:800px;
+}
+
+#homeList{
+
+    font-family: 'Special Elite', cursive;
+    color: white;
+    font-size: 15px;
+}
+
+#fullBack{
+    max-width: 1300px;
+    width: 1300px;
+    background: url("http://i1166.photobucket.com/albums/q619/lawofsuccess1/tire_zpsaarmktof.jpg") no-repeat 45% 30% fixed; 
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+#fullBack3{
+    max-width: 1300px;
+    width: 1300px;
+    background: url("http://i1166.photobucket.com/albums/q619/lawofsuccess1/snatchbw_zpsikiwbg7l.jpg") no-repeat 45% 30% fixed; 
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#fullBack2{
+
+    background: url("http://i1166.photobucket.com/albums/q619/lawofsuccess1/gymBW_zpss3f1viuh.jpg") no-repeat 50% 50% fixed;
+
+    max-width: 1300px;
+    width: 1300px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+#backgirl{
+
+    background: url("http://i1166.photobucket.com/albums/q619/lawofsuccess1/dip_zpsdgx4hu5e.jpg") no-repeat;
+    max-width: 1300px;
+    width: 1300px;
+    background-size:cover;
+    margin: auto;
+    
+    
+    
+
+
+
+}
+
+#content-gray1{
+    float:right;
+    background:url("http://healthystrongfitness.com/wp-content/uploads/2015/08/gym.jpg")no-repeat;
+    max-width: 1300px;
+    width: 1300px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    filter: grayscale(100%); 
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+}
+
+#location{
+
+    font-family: 'Special Elite', cursive;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+#li{
+
+    font-family: 'Special Elite', cursive;
+    color: white;
+    font-size: 15px;
+    text-align: left;
+}
+
+#liRight{
+
+    font-family: 'Special Elite', cursive;
+    color: white;
+    font-size: 15px;
+    text-align: right;
+}
+
+
+#bord{
+
+    border: 2px solid whitesmoke;
+
+}
+
+#bord2{
+
+    border: 2px solid whitesmoke;
+    margin-left: 6px;
+}
+
+#bord3{
+    margin-left: 65px;
+    border: 2px solid whitesmoke;
+}
+
+#gray{
+
+    filter: grayscale(100%);
+}
+
+#back3{
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 50px;
+    font-family: 'Special Elite', cursive;
+    color: white;
+    font-size: 15px;
+    margin-left: 110px;
+    padding: 10px;
+
+
+
+}
+
+#down{
+
+    margin-top: 20px;
+}
+
+#up{
+
+    margin-bottom: 20px;
+}
+
+#marginR{
+
+    margin-left: 30px;
+}
+
+#marginL{
+
+    margin-right: 50px;
+}
+
+#down2{
+
+    margin-top: 40px;
+
+}
+
+#down3{
+
+    margin-top: 28px;
+
+}
+
+#down4{
+
+    margin-top: 26px;
+
+
+}
+
+#boxR{
+
+    margin-left: 25px;
+}
+
+#trans{
+
+    margin-top: 25px;
+    background-position: center;
+    height: 45px;
+    width: 45px;
+}
+
+#down5{
+    
+    margin-top: 50px;
+}
+
+#trans1{
+
+    margin-top: 25px;
+    margin-left: 235px;
+    height: 45px;
+    width: 45px;
+}
+
+
+
+
+
+
+
+
