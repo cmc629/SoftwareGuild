@@ -1,0 +1,3 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+8,"Software Guild\, Inc.",IN,6.00,Wood,1500000.00,5.15,4.75,7725000.00,7125000.00,891000.00,15741000.00
+9,"Newfield",OH,7.00,Wood,300.00,5.15,4.75,1545.00,1425.00,207.90,3177.90

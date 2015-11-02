@@ -1,0 +1,6 @@
+com/thesoftwareguild/mavenaddressbook/model/Address.class
+com/thesoftwareguild/mavenaddressbook/dao/AddressBookLambdaImpl.class
+com/thesoftwareguild/mavenaddressbook/controllers/AddressBookController.class
+com/thesoftwareguild/mavenaddressbook/dao/AddressBookImpl.class
+com/thesoftwareguild/mavenaddressbook/App.class
+com/thesoftwareguild/mavenaddressbook/dao/AddressBookDao.class

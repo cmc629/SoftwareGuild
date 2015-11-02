@@ -1,1 +1,1 @@
-My name is Christian Choi!
+My name is Christian Choi. This is my github repository for the Software Guild Java August 2015 Program.

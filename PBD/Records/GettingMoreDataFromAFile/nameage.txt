@@ -1,0 +1,5 @@
+Steve Jobs,50
+James Brown,71
+Britney Spears,23
+Michael Jackson,46
+Stanley Kubrick,76

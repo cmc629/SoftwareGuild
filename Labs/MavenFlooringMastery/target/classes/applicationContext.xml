@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:aop="http://www.springframework.org/schema/aop"
+      xsi:schemaLocation="
+               http://www.springframework.org/schema/beans            
+               http://www.springframework.org/schema/beans/spring-beans-3.0.xsd        
+               http://www.springframework.org/schema/context
+               http://www.springframework.org/schema/context/spring-context-3.0.xsd          
+               http://www.springframework.org/schema/aop        
+               http://www.springframework.org/schema/aop/spring-aop-3.0.xsd"> 
+
+    <bean id="orderDao" class="com.thesoftwareguild.mavenflooringmastery.daos.OrderDaoImpl" />
+    <bean id="productDao" class="com.thesoftwareguild.mavenflooringmastery.daos.ProductDaoImpl" />
+    <bean id="stateDao" class="com.thesoftwareguild.mavenflooringmastery.daos.StateDaoImpl" />
+    
+    <bean id="flooringMasteryController" class="com.thesoftwareguild.mavenflooringmastery.controller.FlooringMasteryController">
+        <constructor-arg ref="orderDao" />
+        <constructor-arg ref="productDao" />
+        <constructor-arg ref="stateDao" />
+    </bean>
+    
+    
+    <bean id="timingAspect" class="com.thesoftwareguild.mavenflooringmastery.aspects.TimingAspect" />
+    <bean id="auditAspect" class="com.thesoftwareguild.mavenflooringmastery.aspects.AuditAspect">
+        <constructor-arg ref="orderDao" />
+    </bean>
+    
+    
+    <aop:config>
+        
+        <aop:aspect ref="timingAspect">
+            
+            <aop:around method="timeMethod"
+                pointcut="execution(* com.thesoftwareguild.mavenflooringmastery.daos.ProductDao.load(..))" />
+            
+            <aop:around method="timeMethod"
+                pointcut="execution(* com.thesoftwareguild.mavenflooringmastery.daos.StateDao.load(..))" />
+            
+            <aop:around method="timeMethod"
+                pointcut="execution(* com.thesoftwareguild.mavenflooringmastery.daos.OrderDao.load(..))" />
+            
+            <aop:around method="timeMethod"
+                pointcut="execution(* com.thesoftwareguild.mavenflooringmastery.daos.OrderDao.save(..))" />
+            
+        </aop:aspect>
+        
+        
+        <aop:aspect ref="auditAspect">
+
+            <aop:around method="logCreate"
+                pointcut="execution(* com.thesoftwareguild.mavenflooringmastery.daos.OrderDao.create(..))" />
+
+            <aop:around method="logUpdate" 
+                pointcut="execution(* com.thesoftwareguild.mavenflooringmastery.daos.OrderDao.update(..))" />
+
+            <aop:around method="logDelete"
+                pointcut="execution(* com.thesoftwareguild.mavenflooringmastery.daos.OrderDao.delete(..))" />
+            
+        </aop:aspect>
+        
+    </aop:config>
+
+</beans>

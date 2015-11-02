@@ -1,0 +1,21 @@
+1. A variable holds a value of a certain type.
+2. A variable declaration is setting the variable's type before the identifier <value type> <identifier>.
+3. A variable assignment is setting the variable equal to a certain value through the use of the '=' sign.
+4. Yes, you can decalre and assign a variable on the same line.
+5. A method cannot return more than one value.
+6. The return type 'void' must be declared for methods that do not return a value.
+7. Code blocks are surrounded by curly braces {} in Java.
+8. A method signature is a the method name and the list of parameters the method takes.
+9. The method parameter is a variable that is passed into the method body and used to execute the code.
+10. The method can have as many parameters as it want (limit is 255? apparently).
+11. No, the method does not need to have parameters of the same type. They have be different types.
+12. The import keyword imports a class that's not in the default Java library?????? (not sure..)
+13. The naming convention for Java classes is capitalize the first letter of each word with no spaces. It should not start with a number. (not sure what this question is asking)
+14. The naming convention for Java variable is camelCase and no spaces. It should not start with a number. (not sure what this question is asking)
+15. The naming convention for Java methods is camelCase and no spaces followed by a set of parenthesis containing parameters, if any. It should not start with a number.(not sure what this question is asking)
+16. The method body is the code block that follows the method definition.
+17. An array is a set containing a certain number of elements that contain value of a single data type.
+18. It is better to use a for loop when you know when to stop the loop (you know the upper/lower limit). It is better to use the while loop when you do not know when to exactly terminate it.
+19. A do-while loop guarantees that the code within the code block is executed AT LEAST once, regardless of the condition. A while loop executes only if the condition is true.
+20. The switch statement is used when you have an expression and have multiple cases for when the expression is equal to a certain value. If none of the cases match the expression, then there is a default case.
+21. Scope can be categorized as local or global. If something is global, it is essentially always there from the beginning. If something is local (let's say a method call returns a variable), that variable that is return is local and will disappear after the method call. It will not disappear if we initialize a global variable to assign/"catch" that method call (I copied this from the 5 Questions Warmup).

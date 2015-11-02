@@ -1,0 +1,10 @@
+User Story for DVDLibrary:
+
+As the user, I want to be able to add a DVD to the collection.
+As the user, I want to be able to remove a DVD from the collection by the DVD title.
+As the user, I want to be able to see a list of all the DVDs in the collection.
+As the user, I want to see the information for a particular DVD by the DVD title
+As the user, I want to get a DVD by the DVD title.
+As the user, I want to add/edit/remove multiple DVDs in one session.
+As the user, I want to add/edit/remove comments on a DVD.
+

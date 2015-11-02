@@ -1,0 +1,6 @@
+Diet Coke,6
+Diet Pepsi,6
+Diet Sprite,6
+Skittles,6
+Sour Patch,6
+Twix,6

@@ -1,0 +1,6 @@
+Skittles,100
+Twix,100
+Sour Patch,100
+Diet Coke,150
+Diet Sprite,150
+Diet Pepsi,150

@@ -1,0 +1,8 @@
+User Story for AddressBook:
+
+As the user, I want to be able to add new addresses to the address book.
+As the user, I want to be able to remove addresses from the address book by ID
+As the user, I want to be able to find all addresses associated with a last name.
+As the user, I want to be able to see how many addresses are in the address book.
+As the user, I want to be able to see a list of all the addresses in the address book.
+

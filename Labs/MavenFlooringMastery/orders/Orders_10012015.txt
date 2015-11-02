@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+10,"victor",OH,6.25,Wood,70.00,5.15,4.75,360.50,332.50,43.31,736.31

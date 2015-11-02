@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+4,"Software Guild\, Inc.",MI,5.75,Carpet,20.00,2.25,2.10,45.00,42.00,5.00,92.00

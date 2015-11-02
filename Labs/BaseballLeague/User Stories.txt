@@ -1,0 +1,9 @@
+BaseballLeague User Story:
+
+As the user, I want to create a new baseball team with a name.
+As the user, I want to create a new player associated with a team.
+As the user, I want to see a list of all the teams in the league.
+As the user, I want to see a list of all the players on a particular team.
+As the user, I want to move a player from one team to another team.
+As the user, I want to remove a player from a team by name.
+

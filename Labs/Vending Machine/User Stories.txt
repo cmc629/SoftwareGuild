@@ -1,0 +1,7 @@
+VendingMachine User Story:
+
+As the user, I want to see a list of all the items with their respective prices in the vending machine.
+As the user, I want to put a certain amount of money into the vending machine.
+As the user, I want to choose an item to be vended as long as I have enough money to pay for.
+As the user, I want to exit without buying anything even after putting money in.
+
